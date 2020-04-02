@@ -1,0 +1,15 @@
+{
+  "name": "facial-recognition",
+  "version": "1.0.0",
+  "description": "An app to run facial recognition in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Delano",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^8.2.0",
+    "face-api.js": "^0.22.2"
+  }
+}
