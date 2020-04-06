@@ -1,12 +1,15 @@
 ## Dependencies
 
-You might need the following things set:
+| Dependency | Version |
+|:----|----:|
+| node | 12.0.0 |
+| npm | 6.9.0 |
 
-* [`LD_LIBRARY_PATH`](https://unix.stackexchange.com/questions/168340/where-is-ld-library-path-how-do-i-set-the-ld-library-path-env-variable)
+Run on Ubuntu 19.10.
 
-You might need root permissions to run this electron app.
+You might need to set permissions to run this electron app like the following.
 
 ```bash
-$ sudo chown root node_modules/electron/dist/chrome-sandbox 
-$ sudo chmod 4755 node_modules/electron/dist/chrome-sandbox 
+$ sudo chown root node_modules/electron/dist/chrome-sandbox
+$ sudo chmod 4755 node_modules/electron/dist/chrome-sandbox
 ```
