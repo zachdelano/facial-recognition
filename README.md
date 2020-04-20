@@ -16,9 +16,8 @@ $ sudo chmod 4755 node_modules/electron/dist/chrome-sandbox
 
 ## DISCLAIMER
 
-This branch does not work, nor will it ever (I don't think). Face-api.js seems
-to be incompatible with Typescript/Electron. So, this branch should be
-abandoned.
+In order for this branch to work, ensure that `@types/webgl12` never exists in
+`package-lock.json`. Otherwise, the following error will occur.
 
 The following error occurs:
 
