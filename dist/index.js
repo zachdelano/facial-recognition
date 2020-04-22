@@ -61,7 +61,7 @@ function detectPatel() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    patel3 = document.getElementById('patel3');
+                    patel3 = document.getElementById('notpatel');
                     return [4 /*yield*/, faceapi.detectAllFaces(patel3)];
                 case 1:
                     detections3 = _a.sent();

@@ -19,7 +19,7 @@ async function detectPatel() {
     // const detections2 = await faceapi.detectAllFaces(patel2)
     // console.log('detections 2', detections2)
 
-    const patel3 = document.getElementById('patel3')
+    const patel3 = document.getElementById('notpatel')
     const detections3 = await faceapi.detectAllFaces(patel3)
     console.log('detections 3', detections3)
 }
