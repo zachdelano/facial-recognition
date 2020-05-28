@@ -17,6 +17,8 @@
   "dependencies": {
     "async": "^3.2.0",
     "face-api.js": "^0.22.2",
+    "jsmpeg": "^1.0.0",
+    "node-rtsp-stream": "0.0.9",
     "pug": "^2.0.4",
     "spectre.css": "^0.5.8"
   },
